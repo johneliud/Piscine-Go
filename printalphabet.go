@@ -7,6 +7,7 @@ func printAlphabet() {
 	for i := 'a'; i <= 'z'; i++ {
 		z01.PrintRune(i)
 	}
+	z01.PrintRune('\n')
 }
 
 func main() {
