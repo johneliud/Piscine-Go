@@ -8,7 +8,9 @@ func ultimatePointOne(n ***int) {
 }
 
 func main() {
-	num := 5
-	ultimatePointOne(&num)
-	fmt.Println(num)
+	a := 0
+	b := &a
+	n := &b
+	ultimatePointOne(&n)
+	fmt.Println(a)
 }
